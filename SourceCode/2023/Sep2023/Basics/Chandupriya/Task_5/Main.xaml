@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="850.4,878.4" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="917.3333333333334,839.3333333333334" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -75,7 +75,7 @@
       <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Add two different Variable types and do the Add in final variable(by using Generic Variable type)" DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="496,813.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Add two different Variable types and do the Add in final variable(by using Generic Variable type)" DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="400,774.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="Result" />
       <Variable x:TypeArguments="ui:GenericValue" Name="dt_String" />
@@ -87,7 +87,7 @@
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Assign sap2010:Annotation.AnnotationText="Created a String variable and Stored a value in it by using generic variable" DisplayName="Stored Str value" sap:VirtualizedContainerService.HintSize="433.6,112.8" sap2010:WorkflowViewState.IdRef="Assign_1">
+    <Assign sap2010:Annotation.AnnotationText="Created a String variable and Stored a value in it by using generic variable" DisplayName="Stored Str value" sap:VirtualizedContainerService.HintSize="338,117.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_1">
       <Assign.To>
         <OutArgument x:TypeArguments="ui:GenericValue">[dt_String]</OutArgument>
       </Assign.To>
@@ -100,7 +100,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </Assign>
-    <Assign sap2010:Annotation.AnnotationText="Created a Integer variable and Stored a value in it by using generic variable" DisplayName="Stored Int value" sap:VirtualizedContainerService.HintSize="433.6,125.6" sap2010:WorkflowViewState.IdRef="Assign_2">
+    <Assign sap2010:Annotation.AnnotationText="Created a Integer variable and Stored a value in it by using generic variable" DisplayName="Stored Int value" sap:VirtualizedContainerService.HintSize="338,117.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_2">
       <Assign.To>
         <OutArgument x:TypeArguments="ui:GenericValue">[dt_Integer]</OutArgument>
       </Assign.To>
@@ -113,7 +113,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </Assign>
-    <Assign sap2010:Annotation.AnnotationText="Added both the variables into a final result variable" DisplayName="Stored both variables in a final result" sap:VirtualizedContainerService.HintSize="433.6,112.8" sap2010:WorkflowViewState.IdRef="Assign_3">
+    <Assign sap2010:Annotation.AnnotationText="Added both the variables into a final result variable" DisplayName="Stored both variables in a final result" sap:VirtualizedContainerService.HintSize="338,117.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_3">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[Result]</OutArgument>
       </Assign.To>
@@ -126,7 +126,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </Assign>
-    <ui:LogMessage sap2010:Annotation.AnnotationText="Writes the specified message according to the log level" DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,186.4" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[Result]">
+    <ui:LogMessage sap2010:Annotation.AnnotationText="Writes the specified message according to the log level" DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="338,135.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Fatal" Message="[Result]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
